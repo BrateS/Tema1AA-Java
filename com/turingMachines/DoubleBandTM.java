@@ -5,7 +5,6 @@ import java.util.*;
 
 public class DoubleBandTM {
     private Set<String> StateSpace;
-    //private Set<Transition> TransitionSpace;
     private HashMap<String, HashMap> TransitionMap;
     private Set<String> FinalStateSpace;
     private String StartState;
@@ -56,7 +55,6 @@ public class DoubleBandTM {
     }
     public DoubleBandTM(String fileName){
         StateSpace = new HashSet<String>();
-        //TransitionSpace = new HashSet<Transition>();
         TransitionMap = new HashMap<String, HashMap>();
         FinalStateSpace = new HashSet<String>();
         StartState = "";
