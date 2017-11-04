@@ -1,0 +1,21 @@
+============== Tema 1 AA ==============
+Bratescu Stefan-Gabriel - 323CB
+
+Task1:
+	Implementarea este in Java.Am facut o clasa DoubleBandTM
+	care are datele masinii Turing. M-am folosit de o clasa interna
+	Transition pentru a usura lucrul cu tranzitiile.
+	Constructorul citeste din fisier datele si le pune in instanta.
+	Pentru a usura cautarea tranzitiile sunt puse intr-un 
+	hashMap(dupa starea initiala) de hashMap-uri(dupa simbolurile citite).
+	In functia Run se face rularea masinii.
+	Se cauta o tranzitii si se efectueaza schimbarile aferente
+	(schimbare benzi,index) pana cand nu mai exista 
+	tranzitii valide sau am ajuns intr-o stare finala.
+Task2:
+	Masina Turing implementata sterge la rand cele mai apropriate 2 litere diferite.
+	Se retine in stari prima litera, cand se ajunge la o litera diferita mergand in dreapta
+	se marcheaza si se merge inapoi in stanga pentru stergerea literei retinute.
+	Se repeta pana cand ramane doar un singur tip de litera pe banda.
+	La acel moment se ajuge la #, se intoarce pentru schimbarea semnelor in # si 
+	se lasa decat o litera.
